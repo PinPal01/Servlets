@@ -1,21 +1,25 @@
 body  {
-    background-image: url("image1.png");
+    background:url('image1.png') no-repeat center center;
+    background-size:100% 650%;
 }
 
 h2{
     color:white;
+    text-align: left;
+    font-size: 60px;
 }
 
 .boton{
     background-color: white;
     border: none;
-    color: #1a1aff;
+    color: black;
     padding: 15px 32px;
-    text-align: center;
+    
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    
 }
 

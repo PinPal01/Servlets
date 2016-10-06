@@ -17,16 +17,15 @@ public class ServletHolaMundo extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>HolaMundoServlet</title>");
         out.println("<style> body  {");
-        out.println("background-color: #ff8080;");
+        out.println("background-color: lightblue;");
         out.println("}");
         out.println("h1{");
-        out.println("color:white;");
+        out.println("color:#004d99");
         out.println("}</style>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1><center>Hola   Mundo   desde   el   servidor WEB</center></h1>");
         out.println("<br><br><br>");
-        out.println("<center><img src=\"images/fondo.png\" alt=\"Imagen chida\" style=\"width:304px;height:228px;\"></center>");
+        out.println("<h1><center>Hola   Mundo   desde   el   servidor WEB</center></h1>");
         out.println("</body></html>");
         out.close();
     }
